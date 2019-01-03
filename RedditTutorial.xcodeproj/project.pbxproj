@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDDD13C821DDD53100BA31F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13C721DDD53100BA31F4 /* AppDelegate.swift */; };
+		EDDD13CA21DDD53100BA31F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13C921DDD53100BA31F4 /* ViewController.swift */; };
+		EDDD13CD21DDD53100BA31F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13CB21DDD53100BA31F4 /* Main.storyboard */; };
+		EDDD13CF21DDD53300BA31F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13CE21DDD53300BA31F4 /* Assets.xcassets */; };
+		EDDD13D221DDD53300BA31F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13D021DDD53300BA31F4 /* LaunchScreen.storyboard */; };
+		EDDD13D721DDD53300BA31F4 /* RedditTutorial WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDDD13D621DDD53300BA31F4 /* RedditTutorial WatchKit App.app */; };
+		EDDD13DD21DDD53300BA31F4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13DB21DDD53300BA31F4 /* Interface.storyboard */; };
+		EDDD13DF21DDD53300BA31F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13DE21DDD53300BA31F4 /* Assets.xcassets */; };
+		EDDD13E621DDD53300BA31F4 /* RedditTutorial WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDDD13E521DDD53300BA31F4 /* RedditTutorial WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDDD13EB21DDD53300BA31F4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13EA21DDD53300BA31F4 /* InterfaceController.swift */; };
+		EDDD13ED21DDD53300BA31F4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13EC21DDD53300BA31F4 /* ExtensionDelegate.swift */; };
+		EDDD13EF21DDD53400BA31F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13EE21DDD53400BA31F4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDDD13D821DDD53300BA31F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDDD13BC21DDD53100BA31F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDD13D521DDD53300BA31F4;
+			remoteInfo = "RedditTutorial WatchKit App";
+		};
+		EDDD13E721DDD53300BA31F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDDD13BC21DDD53100BA31F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDD13E421DDD53300BA31F4;
+			remoteInfo = "RedditTutorial WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDDD13F621DDD53400BA31F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDDD13E621DDD53300BA31F4 /* RedditTutorial WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDD13FA21DDD53400BA31F4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EDDD13D721DDD53300BA31F4 /* RedditTutorial WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDDD13C421DDD53100BA31F4 /* RedditTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDD13C721DDD53100BA31F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDDD13C921DDD53100BA31F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDDD13CC21DDD53100BA31F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDDD13CE21DDD53300BA31F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDDD13D121DDD53300BA31F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDDD13D321DDD53300BA31F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDD13D621DDD53300BA31F4 /* RedditTutorial WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RedditTutorial WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDD13DC21DDD53300BA31F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EDDD13DE21DDD53300BA31F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDDD13E021DDD53300BA31F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDD13E521DDD53300BA31F4 /* RedditTutorial WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RedditTutorial WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDD13EA21DDD53300BA31F4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EDDD13EC21DDD53300BA31F4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EDDD13EE21DDD53400BA31F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDDD13F021DDD53400BA31F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDDD13C121DDD53100BA31F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDD13E221DDD53300BA31F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDDD13BB21DDD53100BA31F4 = {
+			isa = PBXGroup;
+			children = (
+				EDDD13C621DDD53100BA31F4 /* RedditTutorial */,
+				EDDD13DA21DDD53300BA31F4 /* RedditTutorial WatchKit App */,
+				EDDD13E921DDD53300BA31F4 /* RedditTutorial WatchKit Extension */,
+				EDDD13C521DDD53100BA31F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDDD13C521DDD53100BA31F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD13C421DDD53100BA31F4 /* RedditTutorial.app */,
+				EDDD13D621DDD53300BA31F4 /* RedditTutorial WatchKit App.app */,
+				EDDD13E521DDD53300BA31F4 /* RedditTutorial WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDD13C621DDD53100BA31F4 /* RedditTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD13C721DDD53100BA31F4 /* AppDelegate.swift */,
+				EDDD13C921DDD53100BA31F4 /* ViewController.swift */,
+				EDDD13CB21DDD53100BA31F4 /* Main.storyboard */,
+				EDDD13CE21DDD53300BA31F4 /* Assets.xcassets */,
+				EDDD13D021DDD53300BA31F4 /* LaunchScreen.storyboard */,
+				EDDD13D321DDD53300BA31F4 /* Info.plist */,
+			);
+			path = RedditTutorial;
+			sourceTree = "<group>";
+		};
+		EDDD13DA21DDD53300BA31F4 /* RedditTutorial WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD13DB21DDD53300BA31F4 /* Interface.storyboard */,
+				EDDD13DE21DDD53300BA31F4 /* Assets.xcassets */,
+				EDDD13E021DDD53300BA31F4 /* Info.plist */,
+			);
+			path = "RedditTutorial WatchKit App";
+			sourceTree = "<group>";
+		};
+		EDDD13E921DDD53300BA31F4 /* RedditTutorial WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD13EA21DDD53300BA31F4 /* InterfaceController.swift */,
+				EDDD13EC21DDD53300BA31F4 /* ExtensionDelegate.swift */,
+				EDDD13EE21DDD53400BA31F4 /* Assets.xcassets */,
+				EDDD13F021DDD53400BA31F4 /* Info.plist */,
+			);
+			path = "RedditTutorial WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDDD13C321DDD53100BA31F4 /* RedditTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDD13FB21DDD53400BA31F4 /* Build configuration list for PBXNativeTarget "RedditTutorial" */;
+			buildPhases = (
+				EDDD13C021DDD53100BA31F4 /* Sources */,
+				EDDD13C121DDD53100BA31F4 /* Frameworks */,
+				EDDD13C221DDD53100BA31F4 /* Resources */,
+				EDDD13FA21DDD53400BA31F4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDD13D921DDD53300BA31F4 /* PBXTargetDependency */,
+			);
+			name = RedditTutorial;
+			productName = RedditTutorial;
+			productReference = EDDD13C421DDD53100BA31F4 /* RedditTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDDD13D521DDD53300BA31F4 /* RedditTutorial WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDD13F721DDD53400BA31F4 /* Build configuration list for PBXNativeTarget "RedditTutorial WatchKit App" */;
+			buildPhases = (
+				EDDD13D421DDD53300BA31F4 /* Resources */,
+				EDDD13F621DDD53400BA31F4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDD13E821DDD53300BA31F4 /* PBXTargetDependency */,
+			);
+			name = "RedditTutorial WatchKit App";
+			productName = "RedditTutorial WatchKit App";
+			productReference = EDDD13D621DDD53300BA31F4 /* RedditTutorial WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EDDD13E421DDD53300BA31F4 /* RedditTutorial WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDD13F321DDD53400BA31F4 /* Build configuration list for PBXNativeTarget "RedditTutorial WatchKit Extension" */;
+			buildPhases = (
+				EDDD13E121DDD53300BA31F4 /* Sources */,
+				EDDD13E221DDD53300BA31F4 /* Frameworks */,
+				EDDD13E321DDD53300BA31F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RedditTutorial WatchKit Extension";
+			productName = "RedditTutorial WatchKit Extension";
+			productReference = EDDD13E521DDD53300BA31F4 /* RedditTutorial WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDDD13BC21DDD53100BA31F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Will Bishop";
+				TargetAttributes = {
+					EDDD13C321DDD53100BA31F4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EDDD13D521DDD53300BA31F4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EDDD13E421DDD53300BA31F4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EDDD13BF21DDD53100BA31F4 /* Build configuration list for PBXProject "RedditTutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDDD13BB21DDD53100BA31F4;
+			productRefGroup = EDDD13C521DDD53100BA31F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDD13C321DDD53100BA31F4 /* RedditTutorial */,
+				EDDD13D521DDD53300BA31F4 /* RedditTutorial WatchKit App */,
+				EDDD13E421DDD53300BA31F4 /* RedditTutorial WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDDD13C221DDD53100BA31F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD13D221DDD53300BA31F4 /* LaunchScreen.storyboard in Resources */,
+				EDDD13CF21DDD53300BA31F4 /* Assets.xcassets in Resources */,
+				EDDD13CD21DDD53100BA31F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDD13D421DDD53300BA31F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD13DF21DDD53300BA31F4 /* Assets.xcassets in Resources */,
+				EDDD13DD21DDD53300BA31F4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDD13E321DDD53300BA31F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD13EF21DDD53400BA31F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDDD13C021DDD53100BA31F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD13CA21DDD53100BA31F4 /* ViewController.swift in Sources */,
+				EDDD13C821DDD53100BA31F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDD13E121DDD53300BA31F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDD13ED21DDD53300BA31F4 /* ExtensionDelegate.swift in Sources */,
+				EDDD13EB21DDD53300BA31F4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDDD13D921DDD53300BA31F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDDD13D521DDD53300BA31F4 /* RedditTutorial WatchKit App */;
+			targetProxy = EDDD13D821DDD53300BA31F4 /* PBXContainerItemProxy */;
+		};
+		EDDD13E821DDD53300BA31F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDDD13E421DDD53300BA31F4 /* RedditTutorial WatchKit Extension */;
+			targetProxy = EDDD13E721DDD53300BA31F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDDD13CB21DDD53100BA31F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDD13CC21DDD53100BA31F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDDD13D021DDD53300BA31F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDD13D121DDD53300BA31F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDDD13DB21DDD53300BA31F4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDD13DC21DDD53300BA31F4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDDD13F121DDD53400BA31F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDDD13F221DDD53400BA31F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDDD13F421DDD53400BA31F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
+				INFOPLIST_FILE = "RedditTutorial WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.RedditTutorial.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		EDDD13F521DDD53400BA31F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
+				INFOPLIST_FILE = "RedditTutorial WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.RedditTutorial.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		EDDD13F821DDD53400BA31F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
+				IBSC_MODULE = RedditTutorial_WatchKit_Extension;
+				INFOPLIST_FILE = "RedditTutorial WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.RedditTutorial.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		EDDD13F921DDD53400BA31F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
+				IBSC_MODULE = RedditTutorial_WatchKit_Extension;
+				INFOPLIST_FILE = "RedditTutorial WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.RedditTutorial.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		EDDD13FC21DDD53400BA31F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
+				INFOPLIST_FILE = RedditTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.RedditTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDDD13FD21DDD53400BA31F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8D2NQ6572;
+				INFOPLIST_FILE = RedditTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.RedditTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDDD13BF21DDD53100BA31F4 /* Build configuration list for PBXProject "RedditTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDD13F121DDD53400BA31F4 /* Debug */,
+				EDDD13F221DDD53400BA31F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDD13F321DDD53400BA31F4 /* Build configuration list for PBXNativeTarget "RedditTutorial WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDD13F421DDD53400BA31F4 /* Debug */,
+				EDDD13F521DDD53400BA31F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDD13F721DDD53400BA31F4 /* Build configuration list for PBXNativeTarget "RedditTutorial WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDD13F821DDD53400BA31F4 /* Debug */,
+				EDDD13F921DDD53400BA31F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDD13FB21DDD53400BA31F4 /* Build configuration list for PBXNativeTarget "RedditTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDD13FC21DDD53400BA31F4 /* Debug */,
+				EDDD13FD21DDD53400BA31F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDDD13BC21DDD53100BA31F4 /* Project object */;
+}
