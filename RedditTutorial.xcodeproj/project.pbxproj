@@ -19,6 +19,10 @@
 		EDDD13EB21DDD53300BA31F4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13EA21DDD53300BA31F4 /* InterfaceController.swift */; };
 		EDDD13ED21DDD53300BA31F4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13EC21DDD53300BA31F4 /* ExtensionDelegate.swift */; };
 		EDDD13EF21DDD53400BA31F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD13EE21DDD53400BA31F4 /* Assets.xcassets */; };
+		EDDD13FF21DDD96C00BA31F4 /* RedditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13FE21DDD96C00BA31F4 /* RedditCell.swift */; };
+		EDDD140021DDD96C00BA31F4 /* RedditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD13FE21DDD96C00BA31F4 /* RedditCell.swift */; };
+		EDDD140221DDEB9600BA31F4 /* RedditPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD140121DDEB9600BA31F4 /* RedditPosts.swift */; };
+		EDDD140321DDEB9600BA31F4 /* RedditPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD140121DDEB9600BA31F4 /* RedditPosts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,8 @@
 		EDDD13EC21DDD53300BA31F4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		EDDD13EE21DDD53400BA31F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDD13F021DDD53400BA31F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDD13FE21DDD96C00BA31F4 /* RedditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditCell.swift; sourceTree = "<group>"; };
+		EDDD140121DDEB9600BA31F4 /* RedditPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		EDDD13BB21DDD53100BA31F4 = {
 			isa = PBXGroup;
 			children = (
+				EDDD140121DDEB9600BA31F4 /* RedditPosts.swift */,
 				EDDD13C621DDD53100BA31F4 /* RedditTutorial */,
 				EDDD13DA21DDD53300BA31F4 /* RedditTutorial WatchKit App */,
 				EDDD13E921DDD53300BA31F4 /* RedditTutorial WatchKit Extension */,
@@ -136,6 +143,7 @@
 		EDDD13DA21DDD53300BA31F4 /* RedditTutorial WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				EDDD13FE21DDD96C00BA31F4 /* RedditCell.swift */,
 				EDDD13DB21DDD53300BA31F4 /* Interface.storyboard */,
 				EDDD13DE21DDD53300BA31F4 /* Assets.xcassets */,
 				EDDD13E021DDD53300BA31F4 /* Info.plist */,
@@ -287,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDD13CA21DDD53100BA31F4 /* ViewController.swift in Sources */,
+				EDDD140221DDEB9600BA31F4 /* RedditPosts.swift in Sources */,
+				EDDD13FF21DDD96C00BA31F4 /* RedditCell.swift in Sources */,
 				EDDD13C821DDD53100BA31F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDD13ED21DDD53300BA31F4 /* ExtensionDelegate.swift in Sources */,
+				EDDD140321DDEB9600BA31F4 /* RedditPosts.swift in Sources */,
+				EDDD140021DDD96C00BA31F4 /* RedditCell.swift in Sources */,
 				EDDD13EB21DDD53300BA31F4 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
